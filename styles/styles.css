@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,
+    rgba(0,0,0,0),
+    rgba(0,0,0,0.8)
+    ),
+    url("../Images/Rectangle\ 13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:20px 93px 0px 93px;
+    align-items: center;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 167px;
+}
+
+.list-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+a {
+    color:#FFFFFF;
+}
+.explorer {
+    color: #FFFFFF;
+    width: 580px;
+    height: 415px;
+    margin: 209px 693px 144px 93px;
+}
+.explorer h2 {
+    font-family: Water Brush;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.explorer h1 {
+    font-family: "Work Sans", sans-serif;   
+    font-weight: 700;
+    font-size: 86px;
+    margin-top: 16px;
+}
+
+.explorer p {
+    font-family: "Work Sans", sans-serif;   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.destination {
+    text-align: center;
+}
+.choose {
+    font-family: Water Brush;
+    color: #CD1A40;
+    font-size: 46px;
+    font-weight: 400;
+    margin-top: 76px;
+}
+.dest {
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 200;
+    margin-top: 8px;
+}
+
+.malaysia {
+    display: inline-block;
+    width: 580px;
+    height: 626px;
+    background-image: linear-gradient(to left,
+    rgba(0,0,0,0.56),
+    rgba(0,0,0,0.56)
+    ),
+    url("../Images/malaysia.png");
+    background-color:#1E1E1E8F;
+    margin: 36px 0px 36px 93px;
+    padding-top: 252px;
+}
+.city-malaysia {
+    font-family: Water Brush;
+    font-size: 46px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.malaysia p {
+    width: 100px;
+    height: 48px;
+    border-radius: 18px;
+    background: linear-gradient(to right, #CD1A40, #FF803C);
+    font-family: Work Sans;
+    font-weight: 500;
+    padding: 16px 17px;
+    color:#FFFFFF;
+    font-size: 14px;
+    margin: 8px 240px 251px 240px;
+
+}
+.countries {
+    border: 2px solid red;
+    padding:0;
+}
+
+.dubai {
+    display: inline-block;
+    width: 280px;
+    height: 306px;
+    background-image: linear-gradient(to left,
+    rgba(0,0,0,0.56),
+    rgba(0,0,0,0.56)
+    ),
+    url("../Images/Rectangle\ 19.png");
+    background-color:#1E1E1E8F;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    position: relative;
+}
+
+.city-dubai{
+    font-family: Water Brush;
+    font-size: 46px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 91px;
+}
+.dubai p {
+    width: 100px;
+    height: 48px;
+    border-radius: 18px;
+    background: linear-gradient(to right, #CD1A40, #FF803C);
+    font-family: Work Sans;
+    font-weight: 500;
+    padding: 16px 17px;
+    color:#FFFFFF;
+    font-size: 14px;
+    margin: 8px 89px 92px 91px;
+}
+.right {
+    width: 900px;
+    height: 626px;
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    margin-top: 36px;
+}
