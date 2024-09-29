@@ -101,11 +101,12 @@ a {
     color:#FFFFFF;
     font-size: 14px;
     margin: 8px 240px 251px 240px;
+    text-align: center;
 
 }
 .countries {
-    border: 2px solid red;
     padding:0;
+    margin-left:10px;
 }
 
 .dubai {
@@ -118,7 +119,7 @@ a {
     ),
     url("../Images/Rectangle\ 19.png");
     background-color:#1E1E1E8F;
-    /* border: 2px solid red; */
+
     margin-left: 20px;
     position: relative;
 }
@@ -141,12 +142,89 @@ a {
     color:#FFFFFF;
     font-size: 14px;
     margin: 8px 89px 92px 91px;
+    text-align: center;
 }
 .right {
     width: 900px;
     height: 626px;
-    border: 2px solid red;
     display: inline-block;
     position: absolute;
     margin-top: 36px;
+    margin-left: 10px;
+}
+.greece {
+    margin-left:20px;
+    display: inline-block;
+    width: 280px;
+    height: 306px;
+    position: relative;
+    background-image: linear-gradient(to left,
+    rgba(0,0,0,0.56),
+    rgba(0,0,0,0.56)
+    ),
+    url("../Images/greece.png");
+    top:8px;
+}
+
+.city-greece {
+    font-family: Water Brush;
+    font-size: 46px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 91px;
+}
+
+.greece p {
+    width: 100px;
+    height: 48px;
+    border-radius: 18px;
+    background: linear-gradient(to right, #CD1A40, #FF803C);
+    font-family: Work Sans;
+    font-weight: 500;
+    padding: 16px 17px;
+    color:#FFFFFF;
+    font-size: 14px;
+    margin: 15px 89px 92px 91px;
+    text-align: center;
+
+}
+
+.singapore {
+    margin-left: 20px;
+    width: 585px;
+    height: 292px;
+    margin-top: 14px;
+    background-image: linear-gradient(to left,
+    rgba(0,0,0,0.56),
+    rgba(0,0,0,0.56)
+    ),
+    url("../Images/singapore.png");
+    position: relative;
+    top:5px;
+}
+
+.city-singapore {
+    font-family: Water Brush;
+    font-size: 46px;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top:100px;
+}
+
+.singapore p {
+    width: 100px;
+    height: 48px;
+    border-radius: 18px;
+    background: linear-gradient(to right, #CD1A40, #FF803C);
+    font-family: Work Sans;
+    font-weight: 500;
+    padding: 16px 17px;
+    color:#FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 240px;
+    position: relative;
+    top:100px;
 }
