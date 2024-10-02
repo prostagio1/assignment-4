@@ -259,8 +259,9 @@ a {
     #CD1A40,
     #FF803C);
     position: relative;
-    margin-left: 126px;
+    margin-left: 24px;
     border-radius: 5px;
+    display: inline-block;
 }
 .container-1 p {
     font-family: Work Sans;
@@ -292,4 +293,16 @@ a {
     position: absolute;
     top:56px;
     left: 126px;
+}
+.bottom, .top {
+    margin-left:126px;
+}
+.bottom{
+    margin-top: 36px;
+}
+.location {
+    width: 580px;
+    height:96px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
 }
